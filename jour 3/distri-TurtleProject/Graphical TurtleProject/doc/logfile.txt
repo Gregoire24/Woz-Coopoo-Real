@@ -1,0 +1,137 @@
+Class documentation
+<---- javadoc command: ---->
+/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/JDK/Home/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+11
+-classpath
+/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/bluejcore.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/junit-platform-console-standalone-1.5.2.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/junit-quickcheck-core-0.9.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/junit-jupiter-migrationsupport-5.5.2.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/junit-platform-runner-1.5.2.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/junit-jupiter-params-5.5.2.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/junit-platform-testkit-1.5.2.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/junit-jupiter-api-5.5.2.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/junit-platform-console-1.5.2.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/junit-jupiter-engine-5.5.2.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/junit-platform-suite-api-1.5.2.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/junit-vintage-engine-5.5.2.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/junit-platform-reporting-1.5.2.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/junit-jupiter-5.5.2.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/junit-platform-engine-1.5.2.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/junit-platform-launcher-1.5.2.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/junit-platform-commons-1.5.2.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/hamcrest-core-1.3.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/hamcrest-library-1.3.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/lang-stride.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.base.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.controls.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.fxml.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.graphics.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.media.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.properties.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.swing.jar:/private/var/folders/kb/msvl1p548xl2f400r6bc10qr0000gy/T/AppTranslocation/103D2F19-0003-4311-8EA2-19D1EAE053B6/d/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.web.jar:/Applications/BlueJ 5.0.0/bluejext2.jar:/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2
+-d
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java
+<---- end of javadoc command ---->
+Loading source file /Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java...
+Constructing Javadoc information...
+Standard Doclet version 11.0.10
+Building tree for all the packages and classes...
+Generating /Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/doc/TurtleTest.html...
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:167: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:168: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:169: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:170: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:172: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:173: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:174: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:175: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:177: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:178: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:179: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:180: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:182: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:183: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:184: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:185: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:187: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:188: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:189: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:190: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:66: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:67: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:68: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:69: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:72: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:73: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:74: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:75: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:78: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:79: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:80: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:81: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:84: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:85: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:86: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:87: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:120: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:121: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:122: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:123: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:125: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:126: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:127: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:128: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:130: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:131: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:132: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:133: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:135: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:136: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:137: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:138: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:49: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:50: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:51: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:52: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:49: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:50: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:51: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:52: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:66: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:67: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:68: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:69: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:72: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:73: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:74: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:75: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:78: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:79: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:80: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:81: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:84: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:85: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:86: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:87: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:120: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:121: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:122: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:123: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:125: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:126: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:127: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:128: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:130: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:131: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:132: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:133: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:135: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:136: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:137: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:138: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:167: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:168: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:169: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:170: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:172: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:173: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:174: warning - invalid usage of tag >
+/Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/TurtleTest.java:175: warning - invalid usage of tag >
+Generating /Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/doc/package-summary.html...
+Generating /Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/doc/constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/doc/allclasses.html...
+Generating /Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/doc/allclasses.html...
+Generating /Users/pgirard/Documents/dev/CoursJava/Practical chapters/Chapter 2/Part 2 - The Graphical LOGO Turtle/Turtle - Correction-2/doc/index.html...
+100 warnings

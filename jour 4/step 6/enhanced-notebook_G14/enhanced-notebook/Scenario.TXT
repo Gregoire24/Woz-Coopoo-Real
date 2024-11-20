@@ -1,0 +1,37 @@
+The Note class
+Scenario description for teachers
+Write a Note class, which is made of a title, a date and a note body
+Step 0: We verify if the class name is correct
+NAME;CLASS;Note;The class name is 'Note'
+
+Step 1: We verify getters, with correct naming, type and signature
+EXIST;METHOD;getTitle;A getter for 'title' is defined
+PUBLIC;METHOD;getTitle;The 'getTitle' method is public
+TYPE;METHOD;getTitle;'getTitle' return type should be String;java.lang.String
+SIGNATURE;METHOD;getTitle;'getTitle' should have no parameter;LIST;
+
+EXIST;METHOD;getDateOfCreation;A getter for 'dateOfCreation' is defined
+PUBLIC;METHOD;getDateOfCreation;The 'getDateOfCreation' method is public
+TYPE;METHOD;getDateOfCreation;'getDateOfCreation' return type should be SimpleDate;SimpleDate
+SIGNATURE;METHOD;getDateOfCreation;'getDateOfCreation' should have no parameter;LIST;
+
+EXIST;METHOD;getBody;A getter for 'body' is defined
+PUBLIC;METHOD;getBody;The 'getTitle' method is public
+TYPE;METHOD;getBody;'getBody' return type should be String;java.lang.String
+SIGNATURE;METHOD;getBody;'getBody' should have no parameter;LIST;
+
+Step 2: We verify setters, with correct naming, type and signature
+EXIST;METHOD;setTitle;A setter for 'title' is defined
+PUBLIC;METHOD;setTitle;The 'setTitle' method is public
+TYPE;METHOD;setTitle;'setTitle' return type should be void;void
+SIGNATURE;METHOD;setTitle;'setTitle' should have a String parameter;LIST;java.lang.String
+
+EXIST;METHOD;setBody;A setter for 'body' is defined
+PUBLIC;METHOD;setBody;The 'setBody' method is public
+TYPE;METHOD;setBody;'setBody' return type should be void;void
+SIGNATURE;METHOD;setBody;'setBody' should have a String parameter;LIST;java.lang.String
+
+NOTEXIST;METHOD;setDateOfCreation;No setter for 'dateOfCreation'
+
+Step 3: We verify if the constructor has right parameters
+SIGNATURE;CONSTRUCTOR;Note;'Note' should have 3 parameters;LIST;java.lang.String;SimpleDate;java.lang.String

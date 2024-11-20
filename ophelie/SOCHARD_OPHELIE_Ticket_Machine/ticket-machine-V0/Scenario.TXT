@@ -1,0 +1,28 @@
+Designing the right ticket machine functions 
+Scenario description for teachers
+Erase the unnecessary functions and create the required functions
+Step 1: Checks the existence of required functions
+EXIST;METHOD;deliverTicket;A method whose name is 'deliverTicket'is defined
+EXIST;METHOD;getPrice;A method whose name is 'getPrice'is defined
+EXIST;METHOD;getBalance;A method whose name is 'getBalance'is defined
+EXIST;METHOD;getTotal;A method whose name is 'getTotal'is defined
+EXIST;METHOD;insertMoney;A method whose name is 'insertMoney'is defined
+EXIST;METHOD;getNumberOfTickets;A method whose name is 'getNumberOfTickets'is defined
+EXIST;METHOD;setPrice;A method whose name is 'setPrice'is defined
+Step 2: Checks the signatures of required functions
+TYPE;METHOD;deliverTicket;The 'deliverTicket' return type is void;void
+SIGNATURE;METHOD;deliverTicket;The 'deliverTicket' has no parameter;LIST;
+TYPE;METHOD;getPrice;The 'getPrice' returns an int;int
+SIGNATURE;METHOD;getPrice;The 'getPrice' has no parameter;LIST;
+TYPE;METHOD;getBalance;The 'getBalance' returns an int;int
+SIGNATURE;METHOD;getBalance;The 'getBalance' has no parameter;LIST;
+TYPE;METHOD;insertMoney;The 'insertMoney' return type is void;void
+SIGNATURE;METHOD;insertMoney;The 'insertMoney' has one int parameter;LIST;int
+TYPE;METHOD;getNumberOfTickets;The 'getNumberOfTickets' returns an int;int
+SIGNATURE;METHOD;getNumberOfTickets;The 'getNumberOfTickets' has no parameter;LIST;
+TYPE;METHOD;getTotal;The 'getTotal' returns an int;int
+SIGNATURE;METHOD;getTotal;The 'getTotal' has no parameter;LIST;
+TYPE;METHOD;setPrice;The 'setPrice' return type is void;void
+SIGNATURE;METHOD;setPrice;The 'setPrice' has one int parameter;LIST;int
+Step 3: Checks the number of methods
+NUMBER;METHOD;7;The right number of methods is 7

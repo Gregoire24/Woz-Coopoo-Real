@@ -1,0 +1,16 @@
+Ticket machine owner point of view
+Scenario description for teachers
+Managing the password
+Step 1: Checks the existence of required function changePassword
+EXIST;METHOD;changePassword;A method whose name is 'changePassword'is defined
+TYPE;METHOD;changePassword;The 'changePassword' return type is void;void
+SIGNATURE;METHOD;changePassword;The 'changePassword' has two String parameter;LIST;java.lang.String;java.lang.String
+Step 2: Checks the existence of required function collectMoney
+EXIST;METHOD;collectMoney;A method whose name is 'collectMoney'is defined
+TYPE;METHOD;collectMoney;The 'collectMoney' returns an int;int
+SIGNATURE;METHOD;collectMoney;The 'collectMoney' has one String parameter;LIST;java.lang.String
+Step 3: Checks the password attribute
+EXIST;FIELD;password;The 'password' attribute is defined
+TYPE;FIELD;password;The 'password' attribute is a String;class java.lang.String
+INSTANCE;FIELD;password;The 'password' attribute is an instance attribute
+PRIVATE;FIELD;password;The 'password' attribute is private

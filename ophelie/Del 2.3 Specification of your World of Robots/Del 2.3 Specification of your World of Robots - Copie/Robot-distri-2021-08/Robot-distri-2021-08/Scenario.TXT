@@ -1,0 +1,56 @@
+The simplest Robot class
+Scenario description for teachers
+Write a very simple robot class: the robot has a name, it evolves in a 2D world made of squares, and manages its position in this world (xPosition and yPosition,  integer values). At this step, we consider that the world is infinite. We do not need any constructor yet
+Step 0: We verify if the class name is right
+NAME;CLASS;Robot;The class name is 'Robot'
+
+Step 1: We verify if all required fields are present, with correct naming and writing
+EXIST;FIELD;name;A field whose name is 'name'is defined
+EXIST;FIELD;xPosition;A field whose name is 'xPosition'is defined
+EXIST;FIELD;yPosition;A field whose name is 'yPosition'is defined
+
+Step 2: We verify if attibutes types are right
+TYPE;FIELD;name;The 'name' field is a String;class java.lang.String
+TYPE;FIELD;xPosition;The 'xPosition' field is an int;int
+TYPE;FIELD;yPosition;The 'yPosition' field is an int;int
+
+Step 3: We verify setters and getters existence
+EXIST;METHOD;setName;A method whose name is 'setName'is defined
+EXIST;METHOD;getName;A method whose name is 'getName'is defined
+EXIST;METHOD;setXPosition;A method whose name is 'setXPosition'is defined
+EXIST;METHOD;getXPosition;A method whose name is 'getXPosition'is defined
+EXIST;METHOD;setYPosition;A method whose name is 'setYPosition'is defined
+EXIST;METHOD;getYPosition;A method whose name is 'getYPosition'is defined
+
+Step 4: methods are pubic, attributes are private
+PRIVATE;FIELD;name;The 'name' field is public
+PRIVATE;FIELD;xPosition;The 'xPosition' field is private
+PRIVATE;FIELD;yPosition;The 'yPosition' field is private
+PUBLIC;METHOD;setName;The 'setName' method is public
+PUBLIC;METHOD;getName;The 'getName' method is public
+PUBLIC;METHOD;setXPosition;The 'setXPosition' method is public
+PUBLIC;METHOD;getXPosition;The 'getXPosition' method is public
+PUBLIC;METHOD;setYPosition;The 'setYPosition' method is public
+PUBLIC;METHOD;getYPosition;The 'getYPosition' method is public
+
+Step 5: We verify if all members are instance members
+INSTANCE;METHOD;setName;The 'setName' method is an instance method
+INSTANCE;FIELD;name;The 'name' field is an insstance field
+
+Step 6: We verify if all methods have right signature
+SIGNATURE;METHOD;setName;'setName' should have a String parameter;LIST;java.lang.String
+TYPE;METHOD;setName;'setName' should return be String;void
+SIGNATURE;METHOD;getName;'getName' should have no parameter
+TYPE;METHOD;getName;'getName' should return be String;java.lang.String
+SIGNATURE;METHOD;setXPosition;'setXPosition' should have an 'int' parameter;LIST;int
+TYPE;METHOD;setXPosition;'setXPosition' should return be void;void
+SIGNATURE;METHOD;getXPosition;'getXPosition' should have an 'int' no parameter
+TYPE;METHOD;getXPosition;'getXPosition' should return an int;int
+SIGNATURE;METHOD;setYPosition;'setYPosition' should have an 'int' parameter;LIST;int
+TYPE;METHOD;setYPosition;'setYPosition' should return be void;void
+SIGNATURE;METHOD;getYPosition;'getYPosition' should have an 'int' no parameter
+TYPE;METHOD;getYPosition;'getYPosition' should return an int;int
+
+Step 7: We verify if there are only needed fields and methods
+NUMBER;FIELD;3;3 attributes are required, name, xPosition and yPosition
+NUMBER;METHOD;6;6 methods are required, the getters enad setters

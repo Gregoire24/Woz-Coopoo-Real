@@ -1,0 +1,59 @@
+Helpy - the Patient class
+Scenario description for teachers
+Create an object-oriented LOGO turtle
+
+Step 1: Checks the attributes
+EXIST;FIELD;name;The 'name' attribute is defined
+EXIST;FIELD;woman;The 'woman' attribute is defined
+EXIST;FIELD;asthmatic;The 'asthmatic' attribute is defined
+EXIST;FIELD;pregnant;The 'pregnant' attribute is defined
+
+Step 2: Checks attribute characteristics: type, instance, private
+INSTANCE;FIELD;name;The 'name' attribute is an instance attribute
+INSTANCE;FIELD;woman;The 'woman' attribute is an instance attribute
+INSTANCE;FIELD;asthmatic;The 'asthmatic' attribute is an instance attribute
+INSTANCE;FIELD;pregnant;The 'pregnant' attribute is an instance attribute
+
+TYPE;FIELD;name;The 'name' attribute is a String;class java.lang.String
+TYPE;FIELD;woman;The 'woman' attribute is a boolean;boolean
+TYPE;FIELD;asthmatic;The 'asthmatic' attribute is a boolean;boolean
+TYPE;FIELD;pregnant;The 'pregnant' attribute is a boolean;boolean
+
+PRIVATE;FIELD;name;The 'name' attribute is private
+PRIVATE;FIELD;woman;The 'woman' attribute is private
+PRIVATE;FIELD;asthmatic;The 'asthmatic' attribute is private
+PRIVATE;FIELD;pregnant;The 'pregnant' attribute is private
+
+Step 3: Checks getters
+EXIST;METHOD;getName;A getter for name is defined
+TYPE;METHOD;getName;getName() returns a String;java.lang.String
+SIGNATURE;METHOD;getName;getName() has no parameter;LIST;
+
+EXIST;METHOD;isWoman;A quastion getter for woman is defined
+TYPE;METHOD;isWoman;isWoman() returns a boolean;boolean
+SIGNATURE;METHOD;isWoman;isWoman() has no parameter;LIST;
+
+EXIST;METHOD;isPregnant;A quastion getter for pregnant is defined
+TYPE;METHOD;isPregnant;isPregnant() returns a boolean;boolean
+SIGNATURE;METHOD;isPregnant;isPregnant() has no parameter;LIST;
+
+EXIST;METHOD;isAsthmatic;A quastion getter for asthmatic is defined
+TYPE;METHOD;isAsthmatic;isAsthmatic() returns a boolean;boolean
+SIGNATURE;METHOD;isAsthmatic;isAsthmatic() has no parameter;LIST;
+
+Step 4: Checks the setters
+NOTEXIST;METHOD;SetName;No setter for name
+NOTEXIST;METHOD;SetWoman;No setter for woman
+
+EXIST;METHOD;setAsthmatic;A setter exist for asthmatic
+EXIST;METHOD;setPregnant;A setter exist for pregnant
+
+Step 5: Checks setter correctness
+TYPE;METHOD;setAsthmatic;setAsthmatic() returns type is void;void
+SIGNATURE;METHOD;setAsthmatic;setAsthmatic() has a boolean parameter;LIST;boolean
+
+TYPE;METHOD;setPregnant;setPregnant() returns type is void;void
+SIGNATURE;METHOD;setPregnant;setPregnant() has a boolean parameter;LIST;boolean
+
+Step 6: Checks the constructor
+SIGNATURE;CONSTRUCTOR;Patient;A constructor with 2 parameters;LIST;java.lang.String;boolean

@@ -1,0 +1,11 @@
+Protecting your Robot class constructors
+Scenario description for teachers
+Protected constructors for the Robot class
+Step 1: We verify if a static field is present, for numbering the robots
+EXIST;FIELD;numberOfUnnamedRobots;A field whose name is 'numberOfUnnamedRobots'is defined
+TYPE;FIELD;numberOfUnnamedRobots;The field whose name is 'numberOfUnnamedRobots'is an int;int
+STATIC;FIELD;numberOfUnnamedRobots;The field whose name is 'numberOfUnnamedRobots'is static
+Step 2: We verify if two constructors are reallly defined
+NUMBER;CONSTRUCTOR;2;2 constructors are defined;
+SIGNATURE;CONSTRUCTOR;Robot;The constructor with one parameter;LIST;java.lang.String
+SIGNATURE;CONSTRUCTOR;Robot;The constructor with three parameters;LIST;java.lang.String;int;int

@@ -1,0 +1,17 @@
+Protecting your Robot class
+Scenario description for teachers
+Protect your Robot class with constrained setter parameters
+Step 1: We verify if all required fields are present, with correct naming and writing
+EXIST;FIELD;MIN_NAME_LENGTH;A field whose name is 'MIN_NAME_LENGTH'is defined
+EXIST;FIELD;MIN_POSITION;A field whose name is 'MIN_POSITION'is defined
+EXIST;FIELD;MAX_POSITION;A field whose name is 'MAX_POSITION'is defined
+
+Step 2: We verify if all new fields are static
+STATIC;FIELD;MIN_NAME_LENGTH;MIN_NAME_LENGTH must be static
+STATIC;FIELD;MIN_POSITION;MIN_POSITION must be static
+STATIC;FIELD;MAX_POSITION;MAX_POSITION must be static
+
+Step 3: We verify if all new fields are constants (final state)
+FINAL;FIELD;MIN_NAME_LENGTH;MIN_NAME_LENGTH must be static
+FINAL;FIELD;MIN_POSITION;MIN_POSITION must be static
+FINAL;FIELD;MAX_POSITION;MAX_POSITION must be static

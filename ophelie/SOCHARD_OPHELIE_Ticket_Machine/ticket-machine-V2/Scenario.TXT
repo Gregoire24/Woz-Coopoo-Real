@@ -1,0 +1,19 @@
+Managing refunding 
+Scenario description for teachers
+Create the refund and abort functions, and manage the refunding state
+
+Step 1: Checks the existence of required functionsabort
+EXIST;METHOD;abort;A method whose name is 'abort'is defined
+TYPE;METHOD;abort;The 'abort' return type is void;void
+SIGNATURE;METHOD;abort;The 'abort' has no parameter;LIST;
+
+Step 2: Checks the signatures of required functions
+EXIST;METHOD;refund;A method whose name is 'refund'is defined
+TYPE;METHOD;refund;The 'refund' return type is void;void
+SIGNATURE;METHOD;refund;The 'refund' has no parameter;LIST;
+
+Step 3: Checks the refundAvailable status attribute
+EXIST;FIELD;refundAvailable;The 'refundAvailable' attribute is defined
+TYPE;FIELD;refundAvailable;The 'refundAvailable' attribute is a boolean;boolean
+INSTANCE;FIELD;refundAvailable;The 'refundAvailable' attribute is an instance attribute
+PRIVATE;FIELD;refundAvailable;The 'refundAvailable' attribute is private

@@ -1,0 +1,92 @@
+Managing several ticket machines
+Scenario description for teachers
+Create the refund and abort functions, and manage the refunding state
+Step 1: Checks the different instance attributes
+EXIST;FIELD;balance;The 'balance' attribute is defined
+TYPE;FIELD;balance;The 'balance' attribute is an int;int
+INSTANCE;FIELD;balance;The 'balance' attribute is an instance attribute
+PRIVATE;FIELD;balance;The 'balance' attribute is private
+EXIST;FIELD;numberOfTickets;The 'numberOfTickets' attribute is defined
+TYPE;FIELD;numberOfTickets;The 'numberOfTickets' attribute is an int;int
+INSTANCE;FIELD;numberOfTickets;The 'numberOfTickets' attribute is an instance attribute
+PRIVATE;FIELD;numberOfTickets;The 'numberOfTickets' attribute is private
+EXIST;FIELD;total;The 'total' attribute is defined
+TYPE;FIELD;total;The 'total' attribute is an int;int
+INSTANCE;FIELD;total;The 'total' attribute is an instance attribute
+PRIVATE;FIELD;total;The 'total' attribute is private
+EXIST;FIELD;refundAvailable;The 'refundAvailable' attribute is defined
+TYPE;FIELD;refundAvailable;The 'refundAvailable' attribute is a boolean;boolean
+INSTANCE;FIELD;refundAvailable;The 'refundAvailable' attribute is an instance attribute
+PRIVATE;FIELD;refundAvailable;The 'refundAvailable' attribute is private
+Step 2: Checks the different class attributes
+EXIST;FIELD;numberOfTicketMachines;The 'numberOfTicketMachines' attribute is defined
+TYPE;FIELD;numberOfTicketMachines;The 'numberOfTicketMachines' attribute is a int;int
+CLASS;FIELD;numberOfTicketMachines;The 'numberOfTicketMachines' attribute is a class attribute
+PRIVATE;FIELD;numberOfTicketMachines;The 'numberOfTicketMachines' attribute is private
+EXIST;FIELD;price;The 'price' attribute is defined
+TYPE;FIELD;price;The 'price' attribute is a int;int
+CLASS;FIELD;price;The 'price' attribute is a class attribute
+PRIVATE;FIELD;price;The 'price' attribute is private
+EXIST;FIELD;totalCollectedAmount;The 'totalCollectedAmount' attribute is defined
+TYPE;FIELD;totalCollectedAmount;The 'totalCollectedAmount' attribute is a int;int
+CLASS;FIELD;totalCollectedAmount;The 'totalCollectedAmount' attribute is a class attribute
+PRIVATE;FIELD;totalCollectedAmount;The 'totalCollectedAmount' attribute is private
+EXIST;FIELD;password;The 'password' attribute is defined
+TYPE;FIELD;password;The 'password' attribute is a String;class java.lang.String
+CLASS;FIELD;password;The 'password' attribute is a class attribute
+PRIVATE;FIELD;password;The 'password' attribute is private
+Step 3: Checks instance methods (1)
+EXIST;METHOD;getPrice;A method whose name is 'getPrice'is defined
+TYPE;METHOD;getPrice;The 'getPrice' returns an int;int
+SIGNATURE;METHOD;getPrice;The 'getPrice' has no parameter;LIST;
+INSTANCE;METHOD;getPrice;The 'getPrice' method is an instance method
+EXIST;METHOD;getBalance;A method whose name is 'getBalance'is defined
+TYPE;METHOD;getBalance;The 'getBalance' returns an int;int
+SIGNATURE;METHOD;getBalance;The 'getBalance' has no parameter;LIST;
+INSTANCE;METHOD;getBalance;The 'getBalance' method is an instance method
+EXIST;METHOD;getNumberOfTickets;A method whose name is 'getNumberOfTickets'is defined
+TYPE;METHOD;getNumberOfTickets;The 'getNumberOfTickets' returns an int;int
+SIGNATURE;METHOD;getNumberOfTickets;The 'getNumberOfTickets' has no parameter;LIST;
+INSTANCE;METHOD;getNumberOfTickets;The 'getNumberOfTickets' method is an instance method
+EXIST;METHOD;getTotal;A method whose name is 'getTotal'is defined
+TYPE;METHOD;getTotal;The 'getTotal' returns an int;int
+SIGNATURE;METHOD;getTotal;The 'getTotal' has no parameter;LIST;
+INSTANCE;METHOD;getTotal;The 'getTotal' method is an instance method
+Step 4: Checks instance methods (2)
+EXIST;METHOD;insertMoney;A method whose name is 'insertMoney'is defined
+TYPE;METHOD;insertMoney;The 'insertMoney' return type is void;void
+SIGNATURE;METHOD;insertMoney;The 'insertMoney' has one parameter;LIST;int
+INSTANCE;METHOD;insertMoney;The 'insertMoney' method is an instance method
+EXIST;METHOD;refund;A method whose name is 'refund'is defined
+TYPE;METHOD;refund;The 'refund' return type is void;void
+SIGNATURE;METHOD;refund;The 'refund' has no parameter;LIST;
+INSTANCE;METHOD;refund;The 'refund' method is an instance method
+EXIST;METHOD;abort;A method whose name is 'abort'is defined
+TYPE;METHOD;abort;The 'abort' return type is void;void
+SIGNATURE;METHOD;abort;The 'abort' has no parameter;LIST;
+INSTANCE;METHOD;abort;The 'abort' method is an instance method
+EXIST;METHOD;collectMoney;A method whose name is 'collectMoney'is defined
+TYPE;METHOD;collectMoney;The 'collectMoney' returns an int;int
+SIGNATURE;METHOD;collectMoney;The 'collectMoney' has one parameter;LIST;java.lang.String
+INSTANCE;METHOD;collectMoney;The 'collectMoney' method is an instance method
+Step 5: Checks class methods
+EXIST;METHOD;setPrice;A method whose name is 'setPrice'is defined
+TYPE;METHOD;setPrice;The 'setPrice' return type is void;void
+SIGNATURE;METHOD;setPrice;The 'setPrice' has two parameters;LIST;java.lang.String;int
+CLASS;METHOD;setPrice;The 'setPrice' method is an instance method
+EXIST;METHOD;changePassword;A method whose name is 'changePassword'is defined
+TYPE;METHOD;changePassword;The 'changePassword' return type is void;void
+SIGNATURE;METHOD;changePassword;The 'changePassword' has two parameters;LIST;java.lang.String;java.lang.String
+CLASS;METHOD;changePassword;The 'changePassword' method is a class method
+EXIST;METHOD;getNumberOfTicketMachines;A method whose name is 'getNumberOfTicketMachines'is defined
+TYPE;METHOD;getNumberOfTicketMachines;The 'getNumberOfTicketMachines' returns an int;int
+SIGNATURE;METHOD;getNumberOfTicketMachines;The 'getNumberOfTicketMachines' has one parameter;LIST;java.lang.String
+CLASS;METHOD;getNumberOfTicketMachines;The 'getNumberOfTicketMachines' method is a class method
+EXIST;METHOD;getTotalCollectedAmount;A method whose name is 'getTotalCollectedAmount'is defined
+TYPE;METHOD;getTotalCollectedAmount;The 'getTotalCollectedAmount' returns an int;int
+SIGNATURE;METHOD;getTotalCollectedAmount;The 'getTotalCollectedAmount' has one parameter;LIST;java.lang.String
+CLASS;METHOD;getTotalCollectedAmount;The 'getTotalCollectedAmount' method is a class method
+EXIST;METHOD;resetAll;A method whose name is 'resetAll'is defined
+TYPE;METHOD;resetAll;The 'resetAll' return type is void;void
+SIGNATURE;METHOD;resetAll;The 'resetAll' has no parameter;LIST;
+CLASS;METHOD;resetAll;The 'resetAll' method is a class method

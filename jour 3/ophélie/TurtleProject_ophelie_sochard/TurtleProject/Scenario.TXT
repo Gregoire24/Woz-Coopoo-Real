@@ -1,0 +1,60 @@
+The Turtle project
+Scenario description for teachers
+Create an object-oriented LOGO turtle
+Step 1: Checks the x and y attributes
+EXIST;FIELD;x;The 'x' attribute is defined
+TYPE;FIELD;x;The 'x' attribute is an int;int
+INSTANCE;FIELD;x;The 'x' attribute is an instance attribute
+EXIST;FIELD;y;The 'y' attribute is defined
+TYPE;FIELD;y;The 'y' attribute is an int;int
+INSTANCE;FIELD;y;The 'y' attribute is an instance attribute
+
+Step 2: Checks the direction and trace attributes
+EXIST;FIELD;direction;The 'direction' attribute is defined
+TYPE;FIELD;direction;The 'direction' attribute is an int;int
+INSTANCE;FIELD;direction;The 'direction' attribute is an instance attribute
+
+EXIST;FIELD;trace;The 'trace' attribute is defined
+TYPE;FIELD;trace;The 'trace' attribute is a boolean;boolean
+INSTANCE;FIELD;trace;The 'trace' attribute is an instance attribute
+
+Step 3: Checks the getters
+EXIST;METHOD;getX;A getter for x is defined
+TYPE;METHOD;getX;getX() returns an int;int
+SIGNATURE;METHOD;getX;getX() has no parameter;LIST;
+EXIST;METHOD;getY;A getter for y is defined
+TYPE;METHOD;getY;getY() returns an int;int
+SIGNATURE;METHOD;getY;getY() has no parameter;LIST;
+
+EXIST;METHOD;getDirection;A getter for direction is defined
+TYPE;METHOD;getDirection;getDirection() returns an int;int
+SIGNATURE;METHOD;getDirection;getDirection() has no parameter;LIST;
+
+EXIST;METHOD;getTrace;A getter for trace is defined
+TYPE;METHOD;getTrace;getTrace() returns a boolean;boolean
+SIGNATURE;METHOD;getTrace;getTrace() has no parameter;LIST;
+
+Step 4: Checks the ansebce of data oriented setters
+NOTEXIST;METHOD;SetX;No setter for x
+NOTEXIST;METHOD;SetY;No setter for y
+NOTEXIST;METHOD;SetDirection;No setter for direction
+NOTEXIST;METHOD;SetTrace;No setter for trace
+
+Step 5: Checks the goal-oriented methods
+EXIST;METHOD;draw;A 'draw' method  is defined
+TYPE;METHOD;draw;draw() returns void;void
+SIGNATURE;METHOD;draw;draw() has no parameter;LIST;
+
+EXIST;METHOD;unDraw;A 'unDraw' method  is defined
+TYPE;METHOD;unDraw;unDraw() returns void;void
+SIGNATURE;METHOD;unDraw;unDraw() has no parameter;LIST;
+
+EXIST;METHOD;turn;A 'turn' method  is defined
+TYPE;METHOD;turn;turn() returns void;void
+SIGNATURE;METHOD;turn;turn() has no parameter;LIST;
+
+EXIST;METHOD;goForward;A 'goForward' method  is defined
+TYPE;METHOD;goForward;goForward() returns void;void
+SIGNATURE;METHOD;goForward;goForward() has no parameter;LIST;
+
+

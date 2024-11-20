@@ -1,0 +1,31 @@
+The Turtle project
+Scenario description for teachers
+Create an object-oriented LOGO turtle
+
+Step 0: Checks the Turtle class
+NAME;CLASS;Turtle;The 'Turtle' class is the current class
+EXIST;FIELD;x;The 'x' attribute is defined
+EXIST;FIELD;y;The 'y' attribute is defined
+EXIST;FIELD;direction;The 'direction' attribute is defined
+EXIST;FIELD;trace;The 'trace' attribute is defined
+
+Step 1: Checks the show method
+EXIST;METHOD;show;The show() method draws the turtle
+TYPE;METHOD;show;show() returns void;void
+SIGNATURE;METHOD;show;show() has no parameter;LIST;
+PRIVATE;METHOD;show;show() is private
+
+Step 2: Checks the setters and getters
+EXIST;FIELD;color;A 'color' attribute  is defined
+TYPE;FIELD;color;'color' type is String;class java.lang.String
+PRIVATE;FIELD;color;'color' is private
+
+EXIST;METHOD;setColor;A setter for the 'color' attribute  is defined
+TYPE;METHOD;setColor;setColor() returns void;void
+SIGNATURE;METHOD;setColor;setColor() has a String parameter;LIST;java.lang.String
+PUBLIC;METHOD;setColor;setColor() is public
+
+EXIST;METHOD;getColor;A getter for the 'color' attribute  is defined
+TYPE;METHOD;getColor;getColor() returns a String;java.lang.String
+SIGNATURE;METHOD;getColor;getColor() has has no parameter;LIST;
+PUBLIC;METHOD;getColor;getColor() is public

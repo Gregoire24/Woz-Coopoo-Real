@@ -1,0 +1,126 @@
+Helpy - the Drug class
+Scenario description for teachers
+Create an object-oriented LOGO turtle
+
+Step 1: Checks the String attributes
+EXIST;FIELD;name;The 'name' attribute is defined
+TYPE;FIELD;name;The 'name' attribute is a String;class java.lang.String
+INSTANCE;FIELD;name;The 'name' attribute is an instance attribute
+PRIVATE;FIELD;name;The 'name' attribute is private
+
+EXIST;FIELD;laboratory;The 'laboratory' attribute is defined
+TYPE;FIELD;laboratory;The 'laboratory' attribute is a String;class java.lang.String
+INSTANCE;FIELD;laboratory;The 'laboratory' attribute is an instance attribute
+PRIVATE;FIELD;laboratory;The 'laboratory' attribute is private
+
+EXIST;FIELD;indication;The 'indication' attribute is defined
+TYPE;FIELD;indication;The 'indication' attribute is a String;class java.lang.String
+INSTANCE;FIELD;indication;The 'indication' attribute is an instance attribute
+PRIVATE;FIELD;indication;The 'indication' attribute is private
+
+EXIST;FIELD;activePrinciple;The 'activePrinciple' attribute is defined
+TYPE;FIELD;activePrinciple;The 'activePrinciple' attribute is a String;class java.lang.String
+INSTANCE;FIELD;activePrinciple;The 'activePrinciple' attribute is an instance attribute
+PRIVATE;FIELD;activePrinciple;The 'activePrinciple' attribute is private
+
+EXIST;FIELD;therapeuticClass;The 'therapeuticClass' attribute is defined
+TYPE;FIELD;therapeuticClass;The 'therapeuticClass' attribute is a String;class java.lang.String
+INSTANCE;FIELD;therapeuticClass;The 'therapeuticClass' attribute is an instance attribute
+PRIVATE;FIELD;therapeuticClass;The 'therapeuticClass' attribute is private
+
+Step 2: Checks the non String attributes
+EXIST;FIELD;asthmaticContraIndication;The 'asthmaticContraIndication' attribute is defined
+TYPE;FIELD;asthmaticContraIndication;The 'asthmaticContraIndication' attribute is a boolean;boolean
+INSTANCE;FIELD;asthmaticContraIndication;The 'asthmaticContraIndication' attribute is an instance attribute
+PRIVATE;FIELD;asthmaticContraIndication;The 'asthmaticContraIndication' attribute is private
+
+EXIST;FIELD;pregnantContraIndication;The 'pregnantContraIndication' attribute is defined
+TYPE;FIELD;pregnantContraIndication;The 'pregnantContraIndication' attribute is a boolean;boolean
+INSTANCE;FIELD;pregnantContraIndication;The 'pregnantContraIndication' attribute is an instance attribute
+PRIVATE;FIELD;pregnantContraIndication;The 'pregnantContraIndication' attribute is private
+
+EXIST;FIELD;dosage;The 'dosage' attribute is defined
+TYPE;FIELD;dosage;The 'dosage' attribute is an int;int
+INSTANCE;FIELD;dosage;The 'dosage' attribute is an instance attribute
+PRIVATE;FIELD;dosage;The 'dosage' attribute is private
+
+EXIST;FIELD;dosage;The 'posology' attribute is defined
+TYPE;FIELD;posology;The 'posology' attribute is an int;int
+INSTANCE;FIELD;posology;The 'posology' attribute is an instance attribute
+PRIVATE;FIELD;posology;The 'posology' attribute is private
+
+EXIST;FIELD;pillNumber;The 'pillNumber' attribute is defined
+TYPE;FIELD;pillNumber;The 'pillNumber' attribute is an int;int
+INSTANCE;FIELD;pillNumber;The 'pillNumber' attribute is an instance attribute
+PRIVATE;FIELD;pillNumber;The 'pillNumber' attribute is private
+
+Step 3: Checks the String getters
+EXIST;METHOD;getName;A getter for name is defined
+TYPE;METHOD;getName;getName() returns a String;java.lang.String
+SIGNATURE;METHOD;getName;getName() has no parameter;LIST;
+
+EXIST;METHOD;getLaboratory;A getter for name is defined
+TYPE;METHOD;getLaboratory;getLaboratory() returns a String;java.lang.String
+SIGNATURE;METHOD;getLaboratory;getLaboratory() has no parameter;LIST;
+
+EXIST;METHOD;getActivePrinciple;A getter for name is defined
+TYPE;METHOD;getActivePrinciple;getActivePrinciple() returns a String;java.lang.String
+SIGNATURE;METHOD;getActivePrinciple;getActivePrinciple() has no parameter;LIST;
+
+EXIST;METHOD;getIndication;A getter for name is defined
+TYPE;METHOD;getIndication;getIndication() returns a String;java.lang.String
+SIGNATURE;METHOD;getIndication;getIndication() has no parameter;LIST;
+
+EXIST;METHOD;getTherapeuticClass;A getter for name is defined
+TYPE;METHOD;getTherapeuticClass;getTherapeuticClass() returns a String;java.lang.String
+SIGNATURE;METHOD;getTherapeuticClass;getTherapeuticClass() has no parameter;LIST;
+
+Step 4: Checks the non String getters
+EXIST;METHOD;getDosage;A getter for name is defined
+TYPE;METHOD;getDosage;getDosage() returns an int;int
+SIGNATURE;METHOD;getDosage;getDosage() has no parameter;LIST;
+
+EXIST;METHOD;getAsthmaticContraIndication;A getter for name is defined
+TYPE;METHOD;getAsthmaticContraIndication;getAsthmaticContraIndication() returns a boolean;boolean
+SIGNATURE;METHOD;getAsthmaticContraIndication;getAsthmaticContraIndication() has no parameter;LIST;
+
+EXIST;METHOD;getPregnantContraIndication;A getter for name is defined
+TYPE;METHOD;getPregnantContraIndication;getPregnantContraIndication() returns a boolean;boolean
+SIGNATURE;METHOD;getPregnantContraIndication;getPregnantContraIndication() has no parameter;LIST;
+
+EXIST;METHOD;getPosology;A getter for name is defined
+TYPE;METHOD;getPosology;getPosology() returns an int;int
+SIGNATURE;METHOD;getPosology;getPosology() has no parameter;LIST;
+
+EXIST;METHOD;getPillNumber;A getter for name is defined
+TYPE;METHOD;getPillNumber;getPillNumber() returns an int;int
+SIGNATURE;METHOD;getPillNumber;getPillNumber() has no parameter;LIST;
+
+Step 5: Checks the setters
+NOTEXIST;METHOD;SetName;No setter for namz
+NOTEXIST;METHOD;SetLaboratory;No setter for laboratory
+NOTEXIST;METHOD;SetActivePrinciple;No setter for activePrinciple
+NOTEXIST;METHOD;SetIndication;No setter for indication
+NOTEXIST;METHOD;SetTherapeuticClass;No setter for therapeuticClass
+NOTEXIST;METHOD;SetDosage;No setter for dosage
+
+EXIST;METHOD;setAsthmaticContraIndication;A setter exist for asthmaticContraIndication
+EXIST;METHOD;setPregnantContraIndication;A setter exist for pregnantContraIndication
+EXIST;METHOD;setPillNumber;A setter exist for pillNumber
+EXIST;METHOD;setPosology;A setter exist for posology
+
+Step 6: Checks setter correctness
+TYPE;METHOD;setPosology;setPosology() returns type is void;void
+SIGNATURE;METHOD;setPosology;setPosology() has an int parameter;LIST;int
+
+TYPE;METHOD;setPillNumber;setPillNumber() returns type is void;void
+SIGNATURE;METHOD;setPillNumber;setPillNumber() has an int parameter;LIST;int
+
+TYPE;METHOD;setAsthmaticContraIndication;setAsthmaticContraIndication() returns type is void;void
+SIGNATURE;METHOD;setAsthmaticContraIndication;setAsthmaticContraIndication() has a boolean parameter;LIST;boolean
+
+TYPE;METHOD;setPregnantContraIndication;setPregnantContraIndication() returns type is void;void
+SIGNATURE;METHOD;setPregnantContraIndication;setPregnantContraIndication() has a boolean parameter;LIST;boolean
+
+Step 7: Checks the constructor
+SIGNATURE;CONSTRUCTOR;Drug_V1;A constructor with 7 parameters;LIST;java.lang.String;java.lang.String;java.lang.String;java.lang.String;java.lang.String;int;int

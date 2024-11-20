@@ -1,0 +1,16 @@
+The Club class
+Scenario description for teachers
+Accept memberships in a club
+Step 0: We verify if the class name is correct
+NAME;CLASS;Club;The class name is 'Club'
+
+Step 1: We verify getters, with correct naming, type and signature
+EXIST;FIELD;members;An attribute whose name is 'members' is defined
+PRIVATE;FIELD;members;The 'members' field is private
+TYPE;FIELD;members;'members' is an ArrayList<Membership>;class java.util.ArrayList
+
+Step 2: We verify the numberOfMemebrsInMonth() method
+EXIST;METHOD;numberOfMembersInMonth;A method  'numberOfMembersInMonth' is defined
+PUBLIC;METHOD;numberOfMembersInMonth;The 'numberOfMembersInMonth' method is public
+TYPE;METHOD;numberOfMembersInMonth;'numberOfMembersInMonth' return type should be int;int
+SIGNATURE;METHOD;numberOfMembersInMonth;'numberOfMembersInMonth' should have one int parameter;LIST;int

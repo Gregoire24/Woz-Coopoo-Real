@@ -1,0 +1,27 @@
+A graphical robot
+Scenario description for teachers
+Management of the graphical reobot
+Step 1: We verify if a canvasRobot field is present and correct, to manage the graphical robot
+EXIST;FIELD;canvasRobot;A field whose name is 'canvasRobot'is defined
+TYPE;FIELD;canvasRobot;The field whose name is 'canvasRobot'is a CanvasRobot;class CanvasRobot
+PRIVATE;FIELD;canvasRobot;The field whose name is 'canvasRobot'is private
+
+Step 2: We verify if the two constructors have been changed
+NUMBER;CONSTRUCTOR;2;2 constructors are defined;
+SIGNATURE;CONSTRUCTOR;Robot;The constructor with two parameters;LIST;java.lang.String;java.lang.String
+SIGNATURE;CONSTRUCTOR;Robot;The constructor with four parameters;LIST;java.lang.String;int;int;java.lang.String
+
+Step 3: We verify if the colourBody is correctly managed
+EXIST;FIELD;colourBody;A field whose name is 'colourBody'is defined
+TYPE;FIELD;colourBody;The field whose name is 'colourBody'is a String;class java.lang.String
+PRIVATE;FIELD;colourBody;The field whose name is 'colourBody'is private
+
+EXIST;METHOD;setColourBody;A method whose name is 'setColourBody'is defined
+TYPE;METHOD;setColourBody;setColourBody() return type is void;void
+PUBLIC;METHOD;setColourBody;setColourBody() is public
+SIGNATURE;METHOD;setColourBody;The setColourBody() method has one String parameter;LIST;java.lang.String
+
+EXIST;METHOD;getColourBody;A method whose name is 'getColourBody'is defined
+TYPE;METHOD;getColourBody;getColourBody() returns a String;java.lang.String
+PUBLIC;METHOD;getColourBody;getColourBody() is public
+SIGNATURE;METHOD;getColourBody;The getColourBody() method has no attribute;LIST;
